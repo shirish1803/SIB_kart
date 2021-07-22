@@ -1,0 +1,44 @@
+.nav-bar {
+  background-color: rgb(59, 114, 214);
+  color: white;
+  font-weight: 700;
+  font-family: cursive;
+  padding-top: 2px;
+}
+.content {
+  margin-top: 5%;
+}
+.content__row1__col1 {
+  background-color: rgb(212, 240, 241);
+  margin-left: 10px;
+  margin-top: 2px;
+  margin-right: 2px;
+}
+.content__row1__col2 {
+  margin-left: 10px;
+  margin-top: 2px;
+  margin-right: 2px;
+}
+.content__row1__col1__heading {
+  font-size: 18px;
+  margin: 5px;
+  padding-top: 10%;
+  font-weight: 600;
+  color: rgb(47, 54, 73);
+  text-align: center;
+}
+.content__row1__col1__heading1 {
+  font-size: 15px;
+  margin: 5px;
+  font-weight: 600;
+  color: rgb(53, 61, 80);
+}
+.content__row1__col1__content {
+  font-size: 13px;
+  color: rgb(53, 61, 80);
+}
+.content__row1__col2__row__col2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(53, 61, 80);
+}

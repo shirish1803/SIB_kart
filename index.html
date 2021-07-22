@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SIB_kart</title>
+  </head>
+  <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+  />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <body>
+    <div>
+      <nav class="nav-bar navbar navbar-fixed-top">
+        <div class="navbar-header">
+          <p class="navbar-brand">SIB_kart</p>
+        </div>
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search"
+              name="search"
+            />
+          </div>
+          <button type="submit" class="btn btn-default">Search</button>
+        </form>
+      </nav>
+      <div class="content">
+        <div class="row">
+          <div class="col-sm-2 content__row1__col1">
+            <p class="content__row1__col1__heading">Filter</p>
+            <hr style="border: 1px solid rgba(23, 76, 97, 0.678)" />
+            <form>
+              <p class="content__row1__col1__heading1">RAM</p>
+              <div class="content__row1__col1__content">
+                <input type="checkbox" name="RAM1" />
+                <label for="RAM1">&nbsp; 6 GB & above</label><br />
+                <input type="checkbox" name="RAM2" />
+                <label for="RAM2">&nbsp; 4 GB </label><br />
+                <input type="checkbox" name="RAM3" />
+                <label for="RAM3">&nbsp; 3 GB</label><br />
+                <input type="checkbox" name="RAM4" />
+                <label for="RAM4">&nbsp; 2 GB</label><br />
+                <input type="checkbox" name="RAM5" />
+                <label for="RAM5">&nbsp; 1 GB</label><br />
+              </div>
+            </form>
+            <hr style="border: 1px solid rgba(23, 76, 97, 0.678)" />
+            <form>
+              <p class="content__row1__col1__heading1">TYPE</p>
+              <div class="content__row1__col1__content">
+                <input type="checkbox" name="smart_phone" />
+                <label for="smart_phone">&nbsp; smart phone</label><br />
+                <input type="checkbox" name="feature_phone" />
+                <label for="feature_phone">&nbsp; feature phone </label><br />
+              </div>
+            </form>
+            <hr style="border: 1px solid rgba(23, 76, 97, 0.678)" />
+            <form>
+              <p class="content__row1__col1__heading1">CUSTOMER RATINGS</p>
+              <div class="content__row1__col1__content">
+                <input type="checkbox" name="RAM1" />
+                <label for="RAM1">&nbsp; 4 &#9733; & above</label><br />
+                <input type="checkbox" name="RAM2" />
+                <label for="RAM2">&nbsp; 3 &#9733; </label><br />
+                <input type="checkbox" name="RAM3" />
+                <label for="RAM3">&nbsp; 2 &#9733;</label><br />
+                <input type="checkbox" name="RAM4" />
+                <label for="RAM4">&nbsp; 1 &#9733;</label><br />
+              </div>
+            </form>
+            <hr style="border: 1px solid rgba(23, 76, 97, 0.678)" />
+          </div>
+          <div class="col-sm-9 content__row1__col2">
+            <div class="row">
+              <div class="col-sm-3">
+                <br />
+                <img src="phone1.png" width="150" height="225" />
+              </div>
+              <div class="col-sm-5">
+                <br /><br />
+                <p class="content__row1__col2__row__col2">
+                  realme Narzo 30 5G (Racing Silver, 128 GB) (6 GB RAM)
+                </p>
+                <p>
+                  - 6 GB RAM | 128 GB ROM | Expandable Upto 1 TB <br />
+                  - 16.51 cm (6.5 inch) Full HD+ Display <br />
+                  - 48MP + 2MP + 2MP | 16MP Front Camera <br />
+                  - 5000 mAh Battery
+                </p>
+              </div>
+              <div class="col-sm-2 col-sm-offset-1">
+                <br /><br /><br />
+                <p style="font-size: 25px">₹15,999</p>
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-info btn-lg"
+                  data-toggle="modal"
+                  data-target="#myModal"
+                >
+                  Purchase
+                </button>
+              </div>
+
+              <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                      <h4 class="modal-title">Your Purchase</h4>
+                    </div>
+                    <div class="modal-body row">
+                      <img
+                        src="phone1.png"
+                        class="col-sm-4"
+                        width="150"
+                        height="225"
+                      />
+                      <div class="col-sm-6">
+                        <h4>
+                          realme Narzo 30 5G (Racing Silver, 128 GB) (6 GB RAM)
+                        </h4>
+                        <hr style="border: 1px solid rgba(63, 72, 75, 0.678)" />
+                        <p>Please select your payment method:</p>
+                        &nbsp;&nbsp;<input
+                          type="radio"
+                          id="G-pay"
+                          name="payment"
+                          value="G-pay"
+                        />
+                          <label for="G-pay">G-pay</label><br />
+                         
+                        <input
+                          type="radio"
+                          id="Phone pay"
+                          name="payment"
+                          value="Phone pay"
+                        />
+                          <label for="Phone pay">Phone pay</label><br />
+                         
+                        <input
+                          type="radio"
+                          id="Card"
+                          name="payment"
+                          value="Card"
+                        />
+                          <label for="Card">Card</label>
+                      </div>
+
+                       
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        style="margin-left: 33%"
+                        type="button"
+                        class="btn btn-default"
+                      >
+                        Pay
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr style="border: 1px solid rgba(132, 179, 197, 0.678)" />
+            <div class="row">
+              <div class="col-sm-3">
+                <br />
+                <img src="phone1.png" width="150" height="225" />
+              </div>
+              <div class="col-sm-5">
+                <br /><br />
+                <p class="content__row1__col2__row__col2">
+                  realme Narzo 30 5G (Racing Silver, 128 GB) (6 GB RAM)
+                </p>
+                <p>
+                  - 6 GB RAM | 128 GB ROM | Expandable Upto 1 TB <br />
+                  - 16.51 cm (6.5 inch) Full HD+ Display <br />
+                  - 48MP + 2MP + 2MP | 16MP Front Camera <br />
+                  - 5000 mAh Battery
+                </p>
+              </div>
+              <div class="col-sm-3 col-sm-offset-1">
+                <br /><br /><br />
+                <p style="font-size: 25px">₹15,999</p>
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-info btn-lg"
+                  data-toggle="modal"
+                  data-target="#myModal"
+                >
+                  Purchase
+                </button>
+              </div>
+              <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                      <h4 class="modal-title">Your Purchase</h4>
+                    </div>
+                    <div class="modal-body row">
+                      <img
+                        src="phone1.png"
+                        class="col-sm-4"
+                        width="150"
+                        height="225"
+                      />
+                      <div class="col-sm-6">
+                        <h4>
+                          realme Narzo 30 5G (Racing Silver, 128 GB) (6 GB RAM)
+                        </h4>
+                        <hr style="border: 1px solid rgba(63, 72, 75, 0.678)" />
+                        <p>Please select your payment method:</p>
+                        &nbsp;&nbsp;<input
+                          type="radio"
+                          id="G-pay"
+                          name="payment"
+                          value="G-pay"
+                        />
+                          <label for="G-pay">G-pay</label><br />
+                         
+                        <input
+                          type="radio"
+                          id="Phone pay"
+                          name="payment"
+                          value="Phone pay"
+                        />
+                          <label for="Phone pay">Phone pay</label><br />
+                         
+                        <input
+                          type="radio"
+                          id="Card"
+                          name="payment"
+                          value="Card"
+                        />
+                          <label for="Card">Card</label>
+                      </div>
+
+                       
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        style="margin-left: 33%"
+                        type="button"
+                        class="btn btn-default"
+                      >
+                        Pay
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr style="border: 1px solid rgba(132, 179, 197, 0.678)" />
+            <div class="row">
+              <div class="col-sm-3">
+                <br />
+                <img src="phone1.png" width="150" height="225" />
+              </div>
+              <div class="col-sm-5">
+                <br /><br />
+                <p class="content__row1__col2__row__col2">
+                  realme Narzo 30 5G (Racing Silver, 128 GB) (6 GB RAM)
+                </p>
+                <p>
+                  - 6 GB RAM | 128 GB ROM | Expandable Upto 1 TB <br />
+                  - 16.51 cm (6.5 inch) Full HD+ Display <br />
+                  - 48MP + 2MP + 2MP | 16MP Front Camera <br />
+                  - 5000 mAh Battery
+                </p>
+              </div>
+              <div class="col-sm-3 col-sm-offset-1">
+                <br /><br /><br />
+                <p style="font-size: 25px">₹15,999</p>
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-info btn-lg"
+                  data-toggle="modal"
+                  data-target="#myModal"
+                >
+                  Purchase
+                </button>
+              </div>
+              <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                      <h4 class="modal-title">Your Purchase</h4>
+                    </div>
+                    <div class="modal-body row">
+                      <img
+                        src="phone1.png"
+                        class="col-sm-4"
+                        width="150"
+                        height="225"
+                      />
+                      <div class="col-sm-6">
+                        <h4>
+                          realme Narzo 30 5G (Racing Silver, 128 GB) (6 GB RAM)
+                        </h4>
+                        <hr style="border: 1px solid rgba(63, 72, 75, 0.678)" />
+                        <p>Please select your payment method:</p>
+                        &nbsp;&nbsp;<input
+                          type="radio"
+                          id="G-pay"
+                          name="payment"
+                          value="G-pay"
+                        />
+                          <label for="G-pay">G-pay</label><br />
+                         
+                        <input
+                          type="radio"
+                          id="Phone pay"
+                          name="payment"
+                          value="Phone pay"
+                        />
+                          <label for="Phone pay">Phone pay</label><br />
+                         
+                        <input
+                          type="radio"
+                          id="Card"
+                          name="payment"
+                          value="Card"
+                        />
+                          <label for="Card">Card</label>
+                      </div>
+
+                       
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        style="margin-left: 33%"
+                        type="button"
+                        class="btn btn-default"
+                      >
+                        Pay
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr style="border: 1px solid rgba(132, 179, 197, 0.678)" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
